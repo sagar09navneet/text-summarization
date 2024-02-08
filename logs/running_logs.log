@@ -1,0 +1,189 @@
+[2024-02-05 05:18:58,264: INFO: server: Started server process [1]]
+[2024-02-05 05:18:58,265: INFO: on: Waiting for application startup.]
+[2024-02-05 05:18:58,266: INFO: on: Application startup complete.]
+[2024-02-05 05:18:58,266: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-02-05 05:20:03,779: INFO: server: Started server process [1]]
+[2024-02-05 05:20:03,788: INFO: on: Waiting for application startup.]
+[2024-02-05 05:20:03,800: INFO: on: Application startup complete.]
+[2024-02-05 05:20:03,806: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-02-05 05:24:50,188: INFO: server: Shutting down]
+[2024-02-05 05:24:50,324: INFO: on: Waiting for application shutdown.]
+[2024-02-05 05:24:50,331: INFO: on: Application shutdown complete.]
+[2024-02-05 05:24:50,332: INFO: server: Finished server process [1]]
+[2024-02-05 05:25:26,717: INFO: server: Started server process [1]]
+[2024-02-05 05:25:26,718: INFO: on: Waiting for application startup.]
+[2024-02-05 05:25:26,718: INFO: on: Application startup complete.]
+[2024-02-05 05:25:26,719: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-02-05 05:25:50,480: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-05 05:25:51,451: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-05 05:25:51,459: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 05:25:51,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 05:25:51,462: INFO: common: created directory at: artifacts]
+[2024-02-05 05:25:51,463: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-05 05:25:54,474: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3572:34F41:154E1:2808C:65C0715F
+Accept-Ranges: bytes
+Date: Mon, 05 Feb 2024 05:25:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21748-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1707110752.267918,VS0,VE665
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f8945062069e91ba830bafbb8c9774573444c201
+Expires: Mon, 05 Feb 2024 05:30:52 GMT
+Source-Age: 0
+
+]
+[2024-02-05 05:25:54,742: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-05 05:25:54,742: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-05 05:25:54,745: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 05:25:54,746: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 05:25:54,747: INFO: common: created directory at: artifacts]
+[2024-02-05 05:25:54,748: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-05 05:25:54,750: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-05 05:25:54,750: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-05 05:25:54,752: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 05:25:54,753: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 05:25:54,754: INFO: common: created directory at: artifacts]
+[2024-02-05 05:25:54,754: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-05 05:26:01,067: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-02-05 05:26:01,068: INFO: main: *******************]
+[2024-02-05 05:26:01,068: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-05 05:26:01,070: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 05:26:01,072: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 05:26:01,072: INFO: common: created directory at: artifacts]
+[2024-02-05 05:26:01,072: INFO: common: created directory at: artifacts/model_trainer]
+[2024-02-05 05:33:34,122: INFO: server: Started server process [1]]
+[2024-02-05 05:33:34,123: INFO: on: Waiting for application startup.]
+[2024-02-05 05:33:34,124: INFO: on: Application startup complete.]
+[2024-02-05 05:33:34,125: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-02-05 05:37:03,935: INFO: server: Started server process [1]]
+[2024-02-05 05:37:03,936: INFO: on: Waiting for application startup.]
+[2024-02-05 05:37:03,937: INFO: on: Application startup complete.]
+[2024-02-05 05:37:03,937: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-02-05 05:43:30,580: INFO: server: Shutting down]
+[2024-02-05 05:43:30,688: INFO: on: Waiting for application shutdown.]
+[2024-02-05 05:43:30,694: INFO: on: Application shutdown complete.]
+[2024-02-05 05:43:30,696: INFO: server: Finished server process [1]]
+[2024-02-05 05:47:35,896: INFO: server: Started server process [1]]
+[2024-02-05 05:47:35,898: INFO: on: Waiting for application startup.]
+[2024-02-05 05:47:35,899: INFO: on: Application startup complete.]
+[2024-02-05 05:47:35,900: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-02-05 05:52:14,372: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-05 05:52:16,180: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-05 05:52:16,184: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 05:52:16,186: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 05:52:16,186: INFO: common: created directory at: artifacts]
+[2024-02-05 05:52:16,186: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-05 05:52:16,187: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-02-05 05:52:16,568: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-05 05:52:16,568: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-05 05:52:16,571: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 05:52:16,572: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 05:52:16,573: INFO: common: created directory at: artifacts]
+[2024-02-05 05:52:16,573: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-05 05:52:16,578: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-05 05:52:16,578: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-05 05:52:16,581: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 05:52:16,582: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 05:52:16,583: INFO: common: created directory at: artifacts]
+[2024-02-05 05:52:16,584: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-05 05:52:24,889: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-02-05 05:52:24,890: INFO: main: *******************]
+[2024-02-05 05:52:24,891: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-05 05:52:24,895: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 05:52:24,897: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 05:52:24,904: INFO: common: created directory at: artifacts]
+[2024-02-05 05:52:24,905: INFO: common: created directory at: artifacts/model_trainer]
+[2024-02-05 06:06:05,562: WARNING: file_download: Error while downloading from https://cdn-lfs.huggingface.co/google/pegasus-cnn_dailymail/cf34e28157605d3ced3bd184820ea2a9d9a30b69f4bb1df4aaa4145d0850290e?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1707371548&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwNzM3MTU0OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9nb29nbGUvcGVnYXN1cy1jbm5fZGFpbHltYWlsL2NmMzRlMjgxNTc2MDVkM2NlZDNiZDE4NDgyMGVhMmE5ZDlhMzBiNjlmNGJiMWRmNGFhYTQxNDVkMDg1MDI5MGU%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=jdiQl%7Eu4mmo7rx4t7jDqsRnMce03WDP7cUR4aV3faI9rJwGe80y7IwCPrthK6PDzoo5kRCR4HAo6qFJ%7Ei1kmJEpuYU8NbC2SfpC6lUmANRqQMiSfZyKFLdb4RTW3Z516Dk0dlXXr6qzZBT65MudgeWJoGx%7E7aT9eDtABfhAPZIHaF--8tX808wI1a-GDgW0NERaa1bZmXSPSxqPS16LjJACdd5YfhsI0OSYa81Y9BxraU-cXcCCV3Za0vWbORPJ99B74O-9qp3ULgCeRgOLE--KlpzxlmdHaxUVTw8mlffXYEot-WixrqhqHUnzTV7GB0VA06aC4s7uyvCiLGAgPog__&Key-Pair-Id=KVTP0A1DKRTAX: HTTPSConnectionPool(host='cdn-lfs.huggingface.co', port=443): Read timed out.
+Trying to resume download...]
+[2024-02-05 06:09:02,984: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-05 06:09:02,998: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-05 06:09:03,002: INFO: common: created directory at: artifacts]
+[2024-02-05 06:09:03,003: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-02-05 06:09:03,022: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/transformers/utils/hub.py", line 385, in cached_file
+    resolved_file = hf_hub_download(
+  File "/usr/local/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "app.py", line 41, in predict_route
+    raise e
+  File "app.py", line 38, in predict_route
+    text = obj.predict(text)
+  File "/app/src/textSummarizer/pipeline/prediction.py", line 13, in predict
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+  File "/usr/local/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 758, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 590, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/usr/local/lib/python3.8/site-packages/transformers/utils/hub.py", line 450, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2024-02-05 06:23:49,247: INFO: server: Shutting down]
+[2024-02-05 06:23:49,360: INFO: on: Waiting for application shutdown.]
+[2024-02-05 06:23:49,367: INFO: on: Application shutdown complete.]
+[2024-02-05 06:23:49,370: INFO: server: Finished server process [1]]
